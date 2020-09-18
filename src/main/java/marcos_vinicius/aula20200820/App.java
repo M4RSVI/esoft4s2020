@@ -19,6 +19,6 @@ public class App {
             System.out.println(" O fiat 147 está ligado? " + fusca.estáLigado());
             System.out.println(" O fiat 147 está ligado? " + fiat147.estáLigado());
         
-
+System.out.println();
     }
 }
