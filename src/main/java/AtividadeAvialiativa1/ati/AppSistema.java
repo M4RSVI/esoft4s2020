@@ -4,23 +4,16 @@ package AtividadeAvialiativa1.ati;
 
 public class AppSistema {
     
+public static void main (final String[] args) {
+    final Carros marcasCarros = new Carros("BMW");
 
-private String nome;
-
-public AppSistema(){
+    final Carros marcasCarrosMaringá = new Carros(null);
+  
+    final Object carrosComoObject = new Carros("Teste");
+    System.out.println(marcasCarros.getNome());
+    System.out.println(marcasCarrosMaringá.getNome());
+    System.out.println(((Carros) carrosComoObject).getNome());
 
 }
-
-public AppSistema(String nome){
-    this.nome = nome;
 }
 
-public String getNome(){
-    return nome;
-}
-
-public void setNome (String nome){
-    this.nome = nome;
-}
-System.out.println("nome");
-}
